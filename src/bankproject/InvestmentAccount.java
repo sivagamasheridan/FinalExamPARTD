@@ -19,7 +19,7 @@ public class InvestmentAccount extends BasicAccount
       @Override
     public void debitCard(String label)
     {
-       super.bankName = label;
+       bankName = label;
         //do some labelling here, code not implemented yet
         //not necessary for the review
     }
