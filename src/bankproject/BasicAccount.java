@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class BasicAccount {
   
-public String bankName= "Sheridan";
+public String bankName; //use bankname = "Sheridan";
     private ArrayList<Integer> wallet = new ArrayList();
     
     public void deposit(int money) 
